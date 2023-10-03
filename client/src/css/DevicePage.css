@@ -1,0 +1,123 @@
+@media screen and (min-width: 1500px) {
+
+    .pictures img {
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 1em;
+        width: 22rem;
+        height: 22rem;
+    }
+    .carousel-pictures {
+        width: 22rem;
+        height: 22rem;
+    }
+
+    article .top-separate h3 {
+        text-align: center;
+        /* margin: 4%; */
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1500px) {
+
+    .pictures img {
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 1em;
+        width: 16rem;
+        height: 16rem;
+    }
+    .carousel-pictures {
+        width: 16rem;
+        height: 16rem;
+    }
+
+    article .top-separate h3 {
+        text-align: center;
+        /* margin: 4%; */
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .pictures img {
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 1em;
+        width: 14rem;
+        height: 14rem;
+    }
+    .carousel-pictures {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .next, .prev {
+        display: none;
+    }
+
+    article .top-separate h3 {
+        text-align: center;
+        margin: 4%;
+    }
+
+}
+
+.carousel {
+    display: flex;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    /* margin-bottom: -1em; */
+}
+
+.pictures {
+    scroll-snap-type: x mandatory;
+    -webkit-scroll-snap-type: x mandatory;
+    display: flex;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 1em;
+    -moz-column-gap: 1em;
+    column-gap: 1em;
+    /* margin-bottom: -1em; */
+    transition: left 1s;
+    margin: 0 10px;
+    gap: 10px;
+}
+
+.pictures {
+    overflow: scroll;
+
+    /* position: relative; */
+    /* min-height: 100vh; */
+    /* background: #ddd; */
+}
+
+.pictures::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+
+.pictures::-webkit-scrollbar-track{
+    background: black;
+    border-radius: 0;
+}
+
+.pictures::-Webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 0;
+}
+.pictures div {
+    scroll-snap-align: center;
+}
+
+.ReactModal__Overlay  {
+    /*position: absolute;*/
+    /*max-height: 95%;*/
+    top: 6%!important;
+}

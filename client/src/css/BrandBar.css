@@ -1,0 +1,198 @@
+@media screen and (min-width: 1250px) {
+    .brand-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-bottom: 20px;
+        padding: 0 20%;
+    }
+    .brand-bar-alt {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: black;
+        padding-bottom: 20px;
+        padding: 2% 20%;
+    }
+    .brand-bar .passive-button {
+        background: white;
+        text-transform: uppercase;
+        border: 0px solid;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+    }
+    .brand-bar .active-button {
+        background: white;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid #f7654a;
+        outline: none;
+        font-weight: bold;
+    }
+    .brand-bar-alt .passive-button {
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        border: 0px solid;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+    }
+    .brand-bar-alt .active-button {
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid #f7654a;
+        outline: none;
+        font-weight: bold;
+    }
+}
+
+@media screen
+and (min-width: 615px)
+and (max-width: 1250px){
+    .brand-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-bottom: 20px;
+        padding: 0 20%;
+    }
+    .brand-bar-alt {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: black;
+        padding-bottom: 20px;
+        padding: 2% 20%;
+    }
+    .brand-bar .passive-button {
+        background: white;
+        text-transform: uppercase;
+        border: 0px solid;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+    }
+    .brand-bar .active-button {
+        background: white;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid #f7654a;
+        outline: none;
+        font-weight: bold;
+    }
+    .brand-bar-alt .passive-button {
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        border: 0px solid;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+    }
+    .brand-bar-alt .active-button {
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        font-family: 'Arimo', sans-serif;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid #f7654a;
+        outline: none;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .brand-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        padding-bottom: 20px;
+        padding: 0;
+    }
+    .brand-bar-alt {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: black;
+        padding-bottom: 20px;
+        padding: 0;
+    }
+    .brand-bar .passive-button {
+        background: white;
+        text-transform: uppercase;
+        border: 0px solid;
+        padding: 10px 10px;
+        font-size: 11px;
+        font-family: 'Arimo', sans-serif;
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+    }
+    .brand-bar .active-button {
+        background: white;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        font-size: 12px;
+        font-family: 'Arimo', sans-serif;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid #f7654a;
+        outline: none;
+        font-weight: bold;
+    }
+    .brand-bar-alt .passive-button {
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        border: 0px solid;
+        padding: 10px 10px;
+        font-size: 11px;
+        font-family: 'Arimo', sans-serif;
+        /*font-family: 'Source Sans Pro', sans-serif;*/
+        /*font-family: 'Open Sans', sans-serif;*/
+    }
+    .brand-bar-alt .active-button {
+        background: black;
+        color: white;
+        text-transform: uppercase;
+        padding: 10px 10px;
+        font-size: 12px;
+        font-family: 'Arimo', sans-serif;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom: 1px solid #f7654a;
+        outline: none;
+        font-weight: bold;
+    }
+}
+
+
+
+

@@ -1,0 +1,182 @@
+
+.services-h3 {
+    display: none;
+    padding: 1% 0;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+.services article {
+    display: flex;
+    text-align: center;
+    color: white;
+    /* backdrop-filter: brightness(45%);
+    -webkit-backdrop-filter: brightness(45%); */
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+}
+
+.services img {
+    max-width: 125%;
+    margin-bottom: -3rem;
+    object-fit: cover;
+}
+
+.services .block-white {
+    background-color: white;
+}
+
+.services article .photo-columns {
+    display: none;
+}
+
+@media screen and (min-width: 1250px) {
+    .services article div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 7%;
+    }
+    .services .block-white {
+        display: flex;
+        flex-direction: row;
+        background-image: none!important;
+        background-color: white;
+    }
+    .services .block-black {
+        display: flex;
+        flex-direction: row-reverse;
+        background-image: none!important;
+        background-color: black;
+    }
+    .services .block-white div h3 {
+        padding: 2%;
+        font-family: 'Playfair Display', serif;
+        color: black;
+    }
+    .services .block-black div h3 {
+        padding: 2%;
+        font-family: 'Playfair Display', serif;
+    }
+    .services .block-white div h4 {
+        padding: 2% 20%;
+        font-weight: bold;
+        color: black;
+    }
+    .services .block-black div h4 {
+        padding: 2% 20%;
+    }
+    .services article .photo-columns {
+        display: contents;
+    }
+
+
+}
+
+@media screen and (max-width: 1250px) {
+    .services article div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 6% 0% 6% 0%;
+        backdrop-filter: brightness(30%);
+        -webkit-backdrop-filter: brightness(30%);
+    }
+
+    .services article div h3 {
+        padding: 2%;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .services article div h4 {
+        padding: 2% 13%;
+        text-align: left;
+        font-size: large;
+    }
+
+}
+
+@media screen and (min-width: 1250px) {
+
+
+
+
+    .block-white .service-button {
+        font-family: 'Source Sans Pro', sans-serif;
+        background: none;
+        display: flex;
+        padding: 3%;
+        color: black;
+        font-weight: bold;
+        border: 1px solid #f7654a;
+        margin: auto 0;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+        align-content: center;
+        justify-content: center;
+        border-radius: 1rem;
+        transition: background-color 0.5s;
+    }
+
+    .block-white .service-button:hover,
+    .block-white .service-button:active {
+        background-color: #f7654a;
+        color: white;
+        font-weight: bold;
+    }
+
+    .block-black .service-button {
+        font-family: 'Source Sans Pro', sans-serif;
+        background: none;
+        display: flex;
+        padding: 3%;
+        color: white;
+        border: 1px solid #f7654a;
+        margin: auto 0;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+        align-content: center;
+        justify-content: center;
+        border-radius: 1rem;
+        transition: background-color 0.5s;
+    }
+
+    .block-black .service-button:hover,
+    .block-black .service-button:active {
+        background-color: #f7654a;
+        color: black;
+        font-weight: bold;
+    }
+
+}
+
+@media screen
+and (max-width: 1250px){
+    .service-button {
+        font-family: 'Source Sans Pro', sans-serif;
+        background: none;
+        display: flex;
+        padding: 4%;
+        color: white;
+        border: 1px solid #f7654a;
+        margin: auto 0;
+        text-align: center;
+        outline: none;
+        text-decoration: none;
+        align-content: center;
+        justify-content: center;
+        border-radius: 1rem;
+    }
+
+    .service-button:hover,
+    .service-button:active {
+        background-color: #f7654a;
+        color: black;
+        font-weight: bold;
+    }
+}

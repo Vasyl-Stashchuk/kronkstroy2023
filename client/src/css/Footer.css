@@ -1,0 +1,122 @@
+@media screen and (min-width: 750px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        background-color: white;
+        color: black;
+        height: 45vh;
+        /* background-image: url(/img/BgAbout3.jpg); */
+
+    }
+
+    footer p {
+        margin: 0 ;
+        color: white;
+        padding: 1%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 750px){
+    .footer {
+
+        background-color: white;
+        color: black;
+        padding-top: 20px;
+    }
+
+    footer p {
+        margin: 0 ;
+        color: white;
+        padding: 3%;
+        text-align: center;
+    }
+}
+
+footer .img-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .img-footer img {
+    z-index: -1;
+    max-width: 60%;
+    filter: invert(99%) sepia(5%) saturate(366%) hue-rotate(214deg) brightness(120%) contrast(100%);
+}
+
+footer .imgs-footer a {
+    margin: 2%;
+    max-width: 15%;
+}
+
+footer .imgs-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer .imgs-footer img {
+    max-width: 100%;
+    /* filter: invert(99%) sepia(5%) saturate(366%) hue-rotate(214deg) brightness(120%) contrast(100%); */
+}
+
+footer .footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1vw;
+    padding: 0 25px;
+}
+
+footer .footer-text h4 {
+
+}
+
+footer .footer-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+footer .footer-bar a {
+    text-align: center;
+    background-color: black;
+    border-radius: 1rem;
+    margin: 4%;
+    padding: 4%;
+    text-decoration: none;
+    color: white!important;
+}
+
+.footer-bar a:hover,
+.footer-bar a:active {
+    background-color: white;
+    color: black!important;
+    border: 1px solid #f7654a;
+}
+
+footer h3 {
+    font-family: 'Playfair Display', serif;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+footer h4 {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer .footer-down {
+    background-color: black;
+
+}
+
+
+
+
+

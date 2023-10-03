@@ -1,0 +1,66 @@
+.bg-black {
+    background: black;
+}
+
+button:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border: 0;
+}
+
+.first-screen {
+    background-image: url("../assets/Delmar-17.gif");
+    min-height: 94vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: cover;
+}
+
+
+
+@media screen and (min-width: 1250px) {
+    .first-screen img {
+        max-width: 30%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+
+    }
+}
+
+
+@media screen
+and (min-width: 615px)
+and (max-width: 1250px){
+    .first-screen img {
+        max-width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .first-screen img {
+        max-width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+
+    }
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+}

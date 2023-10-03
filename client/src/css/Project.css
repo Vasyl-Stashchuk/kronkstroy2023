@@ -1,0 +1,165 @@
+.project {
+    background: black;
+    color: white;
+    padding: 2% 0;
+}
+
+.project-hr {
+    width: 20%;
+    justify-content: left;
+    margin: 5%;
+    background-color: #f7654a;
+    opacity: 1;
+}
+
+
+@media screen and (min-width: 1250px) {
+    .device-list {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 100%;
+    }
+
+    .device-list p {
+        font-family: 'Arimo', sans-serif;
+        padding: 0 7px;
+    }
+
+
+}
+@media screen
+and (min-width: 615px)
+and (max-width: 1250px){
+    .project-photos {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .device-list {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 100%;
+    }
+
+    .project-photos h4 {
+        color: white;
+        font-size: 70%;
+        margin-left: 5%;
+    }
+
+    .block-screen h4 {
+        font-weight: bold;
+        font-size: 75%;
+        text-align: center;
+        /* padding: 0 11%; */
+        color: black;
+    }
+
+}
+
+@media screen and (max-width: 615px) {
+    .project-photos {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        padding: 10px 10px;
+    }
+    .device-list {
+        background-color: black;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        padding: 10px 6px;
+        max-width: 100%;
+    }
+
+    .project-photos h4 {
+        color: white;
+        font-size: 80%;
+        margin-left: 5%;
+    }
+
+    .block-screen h4 {
+        font-weight: bold;
+        font-size: 59%;
+        text-align: center;
+        /* padding: 0 11%; */
+        color: black;
+    }
+
+}
+
+.device-item p {
+    font-size: 13px;
+    color: white;
+    margin: 0;
+    padding-left: 9px;
+}
+
+
+.device-img {
+    height: 0;
+    padding-bottom: 80%;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.device-item img {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 96%;
+    border-radius: 11%;
+    transition: 1s;
+    object-fit: cover;
+    /* margin: 0rem; */
+    padding: 2%;
+}
+
+
+
+.device-item img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб; */
+}
+
+.pages {
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2%;
+    gap: 4px;
+}
+
+.pages .page-link {
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    /*border: 0;*/
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    border: 0px solid;
+    font-family: 'Arimo', sans-serif;
+
+
+}
+.pages .active .page-link {
+    color: white;
+    background-color: black;
+    text-transform: uppercase;
+    font-family: 'Arimo', sans-serif;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #f7654a;
+    outline: none;
+    font-weight: bold;
+    border-radius: 0;
+}
